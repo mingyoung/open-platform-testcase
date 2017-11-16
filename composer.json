@@ -1,0 +1,20 @@
+{
+    "name": "mingyoung/open-platform-testcase",
+    "type": "easywechat-extension",
+    "authors": [
+        {
+            "name": "MINGYOUNG",
+            "email": "mingyoungcheung@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mingyoung\\OpenPlatformTestcase\\": "src/"
+        }
+    },
+    "extra": {
+        "observers": [
+            "Mingyoung\\OpenPlatformTestcase\\Handler"
+        ]
+    }
+}
