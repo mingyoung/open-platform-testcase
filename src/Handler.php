@@ -28,9 +28,7 @@ class Handler implements EventHandlerInterface
         }
 
         if ($payload['MsgType'] === 'text' && strpos($payload['Content'], 'QUERY_AUTH_CODE:') !== false) {
-            $authCode = str_replace('QUERY_AUTH_CODE:', '', $payload['Content']);
-
-            event(new ApiTextMessageCase($authCode, $payload['FromUserName']));
+            event(new ApiTextMessageCase($payload));
         }
     }
 }
