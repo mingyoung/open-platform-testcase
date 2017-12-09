@@ -1,6 +1,6 @@
 <?php
 
-namespace Mingyoung\OpenPlatformTestcase;
+namespace EasyWeChatComposer\OpenPlatformTestcase;
 
 use EasyWeChat\Kernel\Contracts\EventHandlerInterface;
 use EasyWeChat\OpenPlatform\Authorizer\OfficialAccount\Application as OfficialAccount;

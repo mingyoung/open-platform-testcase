@@ -9,12 +9,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Mingyoung\\OpenPlatformTestcase\\": "src/"
+            "EasyWeChatComposer\\OpenPlatformTestcase\\": "src/"
         }
     },
     "extra": {
         "observers": [
-            "Mingyoung\\OpenPlatformTestcase\\Handler"
+            "EasyWeChatComposer\\OpenPlatformTestcase\\Handler"
         ]
     }
 }

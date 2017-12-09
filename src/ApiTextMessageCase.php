@@ -1,6 +1,6 @@
 <?php
 
-namespace Mingyoung\OpenPlatformTestcase;
+namespace EasyWeChatComposer\OpenPlatformTestcase;
 
 class ApiTextMessageCase
 {
