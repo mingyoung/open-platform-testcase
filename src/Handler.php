@@ -13,7 +13,7 @@ class Handler implements EventHandlerInterface
         return [OfficialAccount::class, MiniProgram::class];
     }
 
-    public function handle(array $payload = [])
+    public function handle($payload = null)
     {
         if (!in_array($payload['ToUserName'], ['gh_3c884a361561', 'gh_8dad206e9538'])) {
             return;
